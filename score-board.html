@@ -1,0 +1,157 @@
+<! Get me @ www.github.com/anoopknr  >
+<html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="author" content="Anoop Varghese">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> FOOTBALL SCOREBOARD </title>
+    <script language="JavaScript">
+        var goal1 = 0;
+        var goal2 = 0;
+        var team1 = prompt(" Team 1 name : ", "");
+        var team2 = prompt(" Team 2 name : ", "");
+        var game = 1;
+
+        function getgoal() {
+            document.getElementById("goal1").innerHTML = goal1;
+            document.getElementById("goal2").innerHTML = goal2;
+        }
+        window.addEventListener("keydown", change, false);
+
+        function change(e) {
+            if (e.keyCode == "65") {
+                goal1++;
+                getgoal();
+            }
+            if (e.keyCode == "83") {
+                goal1--;
+                getgoal();
+            }
+            if (e.keyCode == "68") {
+                goal2++;
+                getgoal();
+            }
+            if (e.keyCode == "70") {
+                goal2--;
+                getgoal();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <center>
+            <div id="A-team">
+                <div id="A-img">Team 1</div>
+                <div id="goal1">0</div>
+            </div>
+        </center>
+        <div id="B-team">
+            <div id="goal2">0</div>
+            <div id="B-img">Team 2</div>
+        </div>
+        <div id="half"><img src="Logo.jpg" width="580" height="100%" alt="Game Logo"></div>
+
+        <div id="gname">Game Name</div>
+    </div>
+    <br><br>
+</body>
+
+</html>
+<script language="JavaScript">
+    getgoal();
+    document.getElementById("A-img").innerHTML = team1;
+    document.getElementById("B-img").innerHTML = team2;
+</script>
+<style>
+    div,
+    body {
+        margin: 0px;
+        background: #000;
+    }
+    
+    #but {
+        text-align: center;
+    }
+    
+    #A-img,
+    #B-img {
+        width: 60%;
+        height: 100%;
+        background: #FF4500;
+        float: left;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 380px;
+    }
+    
+    #B-img {
+        float: right;
+    }
+    
+    #goal1,
+    #goal2 {
+        width: 39%;
+        height: 100%;
+        float: right;
+        color: white;
+        font-size: 330px;
+        text-align: center;
+    }
+    
+    #goal2 {
+        float: left;
+    }
+    
+    #A-team {
+        border-right-style: solid;
+        border-right-width: 2%;
+        border-color: white;
+    }
+    
+    #B-team,
+    #A-team {
+        width: 49.8%;
+        height: 50%;
+        float: left;
+    }
+    
+    #half {
+        width: 100%;
+        height: 20%;
+        float: left;
+        font-size: 90px;
+    }
+    
+    #gname {
+        width: 100%;
+        height: 25%;
+        float: left;
+        font-size: 120px;
+    }
+    
+    #half,
+    #gname {
+        color: white;
+        text-align: center;
+        float: left;
+    }
+    
+    #half,
+    #gname,
+    #B-team,
+    #A-team {
+        background: #000;
+    }
+    
+    #main {
+        height: 100%;
+    }
+</style>
+<! Coded With Love  >
