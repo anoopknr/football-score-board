@@ -8,8 +8,8 @@ Simple HTML and Java Script Based Football Score management System
 #### Fireworks Animation On Goal Score
 
 ## Controls
-#### Use Keys **A,S,D,F** to change Goals
-#### **J** to start timer/resume  and **K** to pause and **R** to reset Timer.
-#### **M,N** Keys for Timer increment/decrement
+Use Keys **A,S,D,F** to change Goals
+**J** to start timer/resume  and **K** to pause and **R** to reset Timer.
+**M,N** Keys for Timer increment/decrement
 
 ## ScreenShots
