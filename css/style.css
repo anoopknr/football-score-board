@@ -1,0 +1,147 @@
+#time {
+  color: white;
+  font-weight: bold;
+  font-size: 200px;
+  background-color:#000000;
+  height: 400px;
+  line-height: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+  width: 100%;
+  background-color:#000000;
+}
+
+h1 {
+  text-align: center;
+  height: 200px;
+  width: auto;
+  line-height: 200px;
+}
+#sepeator{
+  width: px;
+  background-color: coral;
+}
+body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:black;
+        z-index: 1;
+    }
+
+#but {
+        text-align: center;
+    }
+
+#A-img,
+#B-img {
+        background-color: crimson;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        line-height: 110px;
+        text-align: center;
+    }
+td,th{
+        text-align: center;
+    }
+#goal1,
+#goal2 {
+        color: white;
+        font-size: 330px;
+        text-align: center;
+    }
+
+#A-team {
+        border-right-style: solid;
+        border-right-width: 2%;
+        border-color: white;
+    }
+
+#B-team,
+#A-team {
+        width: 49.8%;
+        height: 50%;
+        float: left;
+    }
+
+#half {
+        width: 100%;
+        height: 20%;
+        float: left;
+        font-size: 90px;
+    }
+
+#gname {
+        width: 100%;
+        height: 25%;
+        float: left;
+        font-size: 120px;
+    }
+
+#half,
+#gname {
+        color: aqua;
+        text-align: center;
+        float: left;
+    }
+
+#half,
+#gname,
+#B-team,
+#A-team {
+        background: #000;
+    }
+
+#main {
+        height: 100%;
+    }
+#canvas-container {
+    margin: -auto 0 0 auto;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+canvas {
+    cursor: crosshair;
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+canvas:active {
+    cursor: crosshair;
+}
+
+#gui {
+    right: 0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+#imgView {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    vertical-align: middle;
+    background-color: black;
+    visibility: hidden;
+}
+#imgGoal {
+    padding-top: 200px;
+    -webkit-animation: scale 3s infinite linear;
+}
+
+@-webkit-keyframes scale {
+		from {
+				-webkit-transform: scale(.5);
+		}
+		to {
+				-webkit-transform: scale(2);
+		}
+}
