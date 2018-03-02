@@ -15,3 +15,7 @@ Use Keys **A,S,D,F** to change Goals
 **M,N** Keys for Timer increment/decrement
 
 ## ScreenShots
+#### ScoreBoard Interface
+![ScoreBoard Interface](https://github.com/anoopknr/football-score-board/blob/master/screenshot/ScoreBoard%20%20Interface.png)
+#### Fireworks Interface
+![ScoreBoard Interface](https://github.com/anoopknr/football-score-board/blob/master/screenshot/Fireworks%20Interface.png)
